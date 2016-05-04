@@ -1,0 +1,21 @@
+{
+  "name": "crazycolor",
+  "version": "1.0.0",
+  "description": "html 5 canvas random color generator tutorial",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irenerobb72/crazycolor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irenerobb72/crazycolor/issues"
+  },
+  "homepage": "https://github.com/irenerobb72/crazycolor#readme"
+}
