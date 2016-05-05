@@ -11,3 +11,7 @@ for(; y < dia; x++){
     ctx.fillRect(x, y, 1, 1)
   }
 }
+
+ctx.globalCompositeOperation = 'destination-in'
+ctx.arc(radius, radius, 0, 2*Math.PI)
+ctx.fill()
