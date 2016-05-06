@@ -10,7 +10,7 @@ module.exports = {
     loaders: [{
       test: /\.jsx?$/,
       exclude: /node_modules/,
-      loader: 'babel'
+      loader: 'envify-loader!babel'
     },
     {
       test: /\.scss$/,
@@ -18,15 +18,15 @@ module.exports = {
     }
   ]},
   resolve: {
-    extensions: ['', '.js']
+    extensions: ['', '.js', '.jsx']
   },
   output: {
-    path: __dirname + '/',
+    path: __dirname + '/dist',
     publicPath: '/',
     filename: 'bundle.js'
   },
   devServer: {
-    contentBase: './'
+    contentBase: './dist'
   },
   sassLoader: {
      includePaths: [path.resolve(__dirname, "./styles")]
