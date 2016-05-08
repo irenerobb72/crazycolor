@@ -1,3 +1,4 @@
+var mainCanvas = document.getElementById("canvas")
 var ctx = canvas.getContext('2d'),
   x, y = 0,
   dia = canvas.width,
